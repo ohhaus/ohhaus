@@ -13,14 +13,18 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="100" />
 </p>
 
----
-
 ## 📫 Контакты
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/ohhaus)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bvsmk1@gmail.com)
+<p align="left">
+  <a href="https://t.me/ohhaus" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="100" />
+  </a>
+  <a href="mailto:bvsmk1@gmail.com" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="100" />
+  </a>
+</p>
 
----
+
 
 ## 📊 GitHub Stats
 
