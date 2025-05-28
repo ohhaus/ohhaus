@@ -28,7 +28,13 @@
 
 ## 📊 GitHub Stats
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width=400" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width=300" />
-</div>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width="420" height="200"/>
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width="420" height="200"/>
+    </td>
+  </tr>
+</table>
