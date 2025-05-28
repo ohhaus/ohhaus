@@ -17,10 +17,10 @@
 
 <p align="left">
   <a href="https://t.me/ohhaus" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="100" />
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="80" />
   </a>
   <a href="mailto:bvsmk1@gmail.com" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="100" />
+    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="80" />
   </a>
 </p>
 
