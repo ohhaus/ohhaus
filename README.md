@@ -1,4 +1,4 @@
-# Python разработчик.
+# Python разработчик
 
 ### Стек технологий:
 **Python**, **Django**, **DRF**, **REST API**, **Bootstrap**, **HTML**, **CSS**, **git**, **API**, **json**, **Linux**, etc
