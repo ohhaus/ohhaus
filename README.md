@@ -15,7 +15,7 @@
 
 ## 📫 Контакты
 
-<p align="center">
+<p align="left">
   <a href="https://t.me/ohhaus" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="80" />
   </a>
@@ -28,13 +28,7 @@
 
 ## 📊 GitHub Stats
 
-<table>
-  <tr>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width="420" height="200"/>
-    </td>
-    <td>
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width="420" height="200"/>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width="420" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width="420" height="200"/>
+</p>
