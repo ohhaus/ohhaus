@@ -13,22 +13,20 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="100" />
 </p>
 
-## 📫 Контакты
+---
 
-<p align="left">
+<p align="center">
   <a href="https://t.me/ohhaus" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" width="80" />
+    <img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram" width="210" height="50" />
   </a>
   <a href="mailto:bvsmk1@gmail.com" target="_blank">
-    <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Gmail" width="80" />
+    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" width="180" height="50" />
   </a>
 </p>
-
-
 
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width="420" height="200"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width="420" height="200"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=radical" width="420" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ohhaus&layout=compact&theme=radical" width="420" height="150"/>
 </p>
