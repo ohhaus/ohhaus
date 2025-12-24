@@ -1,11 +1,3 @@
-```
-       _     _                     
-  ___ | |__ | |__   __ _ _   _ ___ 
- / _ \| '_ \| '_ \ / _` | | | / __|
-| (_) | | | | | | | (_| | |_| \__ \
- \___/|_| |_|_| |_|\__,_|\__,_|___/
-```
-
 <div align="center">
 
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F700&center=true&vCenter=true&width=435&lines=Python+Backend+Developer;Building+systems+that+scale;Write+code%2C+deploy+fast;No+meetings%2C+just+commits)
