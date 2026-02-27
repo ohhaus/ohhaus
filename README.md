@@ -60,10 +60,10 @@ principles = ["Clean Architecture", "Multi-tenancy", "Cache-aside pattern", "Dom
 
 ```
 CONTAINER   IMAGE              STATUS        NOTES
-orderly     fastapi:3.12       Building...   multi-tenant SaaS, clean arch
-booking     fastapi:3.12       Up            cache-aside, celery, teamlead
+orderly     fastapi            Building...   multi-tenant SaaS, clean arch
+booking     fastapi            Up            cache-aside, celery, teamlead
 foodgram    django:3.2         Up            deployed, nginx, gunicorn
-shortener   fastapi:3.12       Up            redis cache, 80ms → 3ms
+shortener   fastapi            Up            redis cache, 80ms → 3ms
 ```
 
 ---
