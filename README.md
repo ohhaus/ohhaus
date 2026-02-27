@@ -1,6 +1,6 @@
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00F700&center=true&vCenter=true&width=435&lines=Python+Backend+Developer;Building+systems+that+scale;Write+code%2C+deploy+fast;No+meetings%2C+just+commits)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=3FB950&center=true&vCenter=true&width=500&lines=Python+Backend+Developer;Clean+Architecture+%7C+Multi-tenant+SaaS;FastAPI+%7C+Django+%7C+PostgreSQL+%7C+Redis;Building+systems+that+scale+correctly)
 
 </div>
 
@@ -8,23 +8,38 @@
 
 ### $ whoami
 
-Python Backend Developer. I build things that work and scale. No bullshit, just clean code and solid architecture.
+Python backend developer. Строю backend-системы с упором на архитектуру и долгосрочную поддерживаемость.
+За основу беру подходы [Netflix Dispatch](https://github.com/Netflix/dispatch): разделение слоёв ответственности, независимость доменов, предсказуемое поведение при масштабировании.
 
-**Contact:** [Telegram](https://t.me/ohhaus) • [Email](mailto:bvsmk1@gmail.com)
+**Contact:** [Telegram](https://t.me/ohhaus) · [Email](mailto:bvsmk1@gmail.com)
 
 ---
 
-### $ cat skills.txt
+### $ ls -la projects/
+
+| Проект | Описание | Стек | Статус |
+|--------|----------|------|--------|
+| [**orderly-ai**](https://github.com/ohhaus/orderly-ai) | SaaS-платформа управления заказами. Multi-tenant (schema-level isolation), AI-аналитика, clean architecture | FastAPI · PostgreSQL · Redis · asyncio · Pydantic v2 | 🔨 В разработке |
+| [**cafe-booking**](https://github.com/ohhaus/cafe-booking) | REST API бронирования столиков. Cache-aside с domain-aware инвалидацией, Celery-уведомления. **Teamlead/Backend Developer** | FastAPI · PostgreSQL · Redis · Celery · Docker | ✅ Завершён |
+| [**foodgram**](https://github.com/ohhaus/Foodgram) | Продуктовый помощник: публикация рецептов, умный список покупок, кастомный импорт данных. Задеплоен на сервер | Django · DRF · Nginx · Gunicorn · Docker | ✅ Завершён |
+| [**url-shortener**](https://github.com/ohhaus/url-shortener) | Сервис коротких ссылок с аналитикой. Redis-кэш сократил latency с 80мс до 3мс | FastAPI · PostgreSQL · Redis · Alembic | ✅ Завершён |
+
+---
+
+### $ cat stack.py
 
 ```python
-stack = {
-    'languages': ['Python', 'Bash', 'SQL'],
-    'frameworks': ['Django', 'Flask', 'FastAPI'],
-    'databases': ['PostgreSQL', 'Redis'],
-    'tools': ['Docker', 'Git', 'Nginx', 'Linux'],
-    'async': ['Celery', 'ARQ'],
-    'other': ['SQLAlchemy', 'Pydantic', 'CI/CD', 'REST API']
+backend = {
+    "languages":   ["Python", "SQL", "Bash"],
+    "frameworks":  ["FastAPI", "Django", "DRF", "Flask"],
+    "databases":   ["PostgreSQL", "Redis", "RabbitMQ"],
+    "orm":         ["SQLAlchemy 2.0", "Alembic"],
+    "infra":       ["Docker", "Nginx", "Gunicorn", "Linux", "CI/CD"],
+    "testing":     ["pytest", "pytest-asyncio", "coverage"],
+    "other":       ["Celery", "Pydantic v2", "REST API", "OpenAPI 3.0", arq],
 }
+
+principles = ["Clean Architecture", "Multi-tenancy", "Cache-aside pattern", "Domain-driven design"]
 ```
 
 ---
@@ -33,27 +48,27 @@ stack = {
 
 <div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=dark&hide_border=true&bg_color=0D1117&title_color=00F700&icon_color=00F700&text_color=C9D1D9)
+![](https://github-readme-stats.vercel.app/api?username=ohhaus&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=3FB950&icon_color=3FB950&text_color=C9D1D9)
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=ohhaus&theme=dark&hide_border=true&background=0D1117&ring=00F700&fire=00F700&currStreakLabel=00F700)
-
-![](https://github-readme-activity-graph.vercel.app/graph?username=ohhaus&theme=github-compact&hide_border=true&bg_color=0D1117&color=00F700&line=00F700&point=00F700)
+![](https://github-readme-streak-stats.herokuapp.com/?user=ohhaus&theme=github-dark-blue&hide_border=true&background=0D1117&ring=3FB950&fire=3FB950&currStreakLabel=3FB950)
 
 </div>
 
 ---
 
-### $ docker ps -a
+### $ docker ps
+
+```
+CONTAINER   IMAGE              STATUS        NOTES
+orderly     fastapi:3.12       Building...   multi-tenant SaaS, clean arch
+booking     fastapi:3.12       Up            cache-aside, celery, teamlead
+foodgram    django:3.2         Up            deployed, nginx, gunicorn
+shortener   fastapi:3.12       Up            redis cache, 80ms → 3ms
+```
+
+---
 
 <div align="center">
-
-```
-CONTAINER ID   IMAGE           STATUS         PORTS
-a8f9e23bc1     python:3.11     Up 247 days    Backend core running
-7c4d82f190     postgres:15     Up 247 days    Database layer active  
-3e9a74cd2f     redis:alpine    Up 247 days    Cache system online
-9b2f6e8a41     nginx:latest    Up 247 days    Reverse proxy ready
-```
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
@@ -62,28 +77,8 @@ a8f9e23bc1     python:3.11     Up 247 days    Backend core running
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
 
-</div>
-
----
-
-### $ ls -la recent_commits/
-
-<div align="center">
-
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&pause=1000&color=00F700&center=true&vCenter=true&width=600&lines=+%24+git+commit+-m+'refactor%3A+optimize+database+queries';+%24+git+commit+-m+'feat%3A+add+async+task+queue';+%24+git+commit+-m+'fix%3A+resolve+race+condition';+%24+git+commit+-m+'perf%3A+improve+response+time+by+40%25')
-
-</div>
-
----
-
-### $ uptime
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=ohhaus&color=green&style=flat-square&label=visitors)
-![GitHub Followers](https://img.shields.io/github/followers/ohhaus?style=flat-square&color=green&label=followers)
-![GitHub Stars](https://img.shields.io/github/stars/ohhaus?style=flat-square&color=green&label=stars)
+![Profile Views](https://komarev.com/ghpvc/?username=ohhaus&color=3fb950&style=flat-square&label=visitors)
 
 </div>
