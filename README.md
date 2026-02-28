@@ -56,18 +56,6 @@ principles = ["Clean Architecture", "Multi-tenancy", "Cache-aside pattern", "Dom
 
 ---
 
-### $ docker ps
-
-```
-CONTAINER   IMAGE              STATUS        NOTES
-orderly     fastapi            Building...   multi-tenant SaaS, clean arch
-booking     fastapi            Up            cache-aside, celery, teamlead
-foodgram    django:3.2         Up            deployed, nginx, gunicorn
-shortener   fastapi            Up            redis cache, 80ms → 3ms
-```
-
----
-
 <div align="center">
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
