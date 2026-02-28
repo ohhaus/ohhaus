@@ -36,7 +36,7 @@ backend = {
     "orm":         ["SQLAlchemy 2.0", "Alembic"],
     "infra":       ["Docker", "Nginx", "Gunicorn", "Linux", "CI/CD"],
     "testing":     ["pytest", "pytest-asyncio", "coverage"],
-    "other":       ["Celery", "Pydantic v2", "REST API", "OpenAPI 3.0", arq],
+    "other":       ["Celery", "Pydantic v2", "REST API", "OpenAPI 3.0", "arq"],
 }
 
 principles = ["Clean Architecture", "Multi-tenancy", "Cache-aside pattern", "Domain-driven design"]
