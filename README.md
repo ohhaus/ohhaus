@@ -21,8 +21,9 @@ Python backend developer. Строю backend-системы с упором на
 |--------|----------|------|--------|
 | [**orderly-ai**](https://github.com/ohhaus/orderly-ai) | SaaS-платформа управления заказами. Multi-tenant (schema-level isolation), AI-аналитика, clean architecture | FastAPI · PostgreSQL · Redis · asyncio · Pydantic v2 | 🔨 В разработке |
 | [**cafe-booking**](https://github.com/ohhaus/cafe-booking) | REST API бронирования столиков. Cache-aside с domain-aware инвалидацией, Celery-уведомления. **Teamlead/Backend Developer** | FastAPI · PostgreSQL · Redis · Celery · Docker | ✅ Завершён |
+| [**url-shortener**](https://github.com/ohhaus/url-shortener) | Сервис коротких ссылок. Вынес редиректы в Redis cache-first — latency сократился с **80мс до 3мс**. Запись кликов асинхронно через ARQ, не блокируя ответ. SSRF-защита и rate limiting из коробки. Покрытие тестами **90.67%** | FastAPI · PostgreSQL · Redis · ARQ · Loguru · Docker | ✅ Завершён |
+| [**cat-charity-fund**](https://github.com/ohhaus/cat-charity-fund) | Платформа благотворительных сборов. Реализовал FIFO-инвестирование: пожертвования автоматически распределяются по открытым проектам без ручного вмешательства. JWT-аутентификация, раздельные права admin/user | FastAPI · SQLAlchemy · Alembic · Pydantic v2 | ✅ Завершён |
 | [**foodgram**](https://github.com/ohhaus/Foodgram) | Продуктовый помощник: публикация рецептов, умный список покупок, кастомный импорт данных. Задеплоен на сервер | Django · DRF · Nginx · Gunicorn · Docker | ✅ Завершён |
-| [**url-shortener**](https://github.com/ohhaus/url-shortener) | Сервис коротких ссылок с аналитикой. Redis-кэш сократил latency с 80мс до 3мс | FastAPI · PostgreSQL · Redis · Alembic | ✅ Завершён |
 
 ---
 
